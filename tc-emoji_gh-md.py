@@ -29,10 +29,10 @@ for emoji in sorted_emoji:
         category_list += f"* [{category}](#{category})\n"
         table += f"\n## {category}\n\n{table_header}"
     # grr html in my markdown 😾
-    row = (f"| [⬆](#Toot.Cat--Emoji--Cheat--Sheet) "
+    row = (f"| [⬆](#tootcat-emoji-cheat-sheet) "
        f"| <img src='{emoji['static_url']}' align='center' width='64'> "
        f"|`:{emoji['shortcode']}:`| {category} | "
-       f"[⬆](#Toot.Cat--Emoji--Cheat--Sheet) |\n")
+       f"[⬆](#tootcat-emoji-cheat-sheet) |\n")
     table += row
     prev_category = category
 
